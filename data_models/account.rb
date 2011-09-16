@@ -4,7 +4,7 @@ class Account
                 :selling_accounts,
 
   def buyer_group?
-    account_type == AccountType::BUYER_GROUP
+    account_type == Constants::AccountType::BUYER_GROUP
   end
 
   def get_default_buyer_group

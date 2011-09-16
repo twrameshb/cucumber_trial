@@ -14,7 +14,7 @@ class Listing
 
   def default
     @vin_number = VinNumberGenerator::generate_vin_number
-    @vehicle_type = VehicleType::CAR
+    @vehicle_type = Constants::VehicleType::CAR
     @make = "Nissan"
     @model = "Murano"
     @year = "1991"
@@ -23,6 +23,6 @@ class Listing
     @floor_price = "8000"
     @starting_bid_price = "4000"
     @buy_now_price = "8500"
-    @status = ListingStatus::PENDING
+    @status = Constants::ListingStatus::PENDING
   end
 end
