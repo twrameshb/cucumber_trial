@@ -1,0 +1,3 @@
+http_access_mode: https
+web_server: my.server.com
+timeout: 60
